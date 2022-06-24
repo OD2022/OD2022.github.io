@@ -1,5 +1,5 @@
 console.log('Welcome');
-var myName = "Emmanuella.\n";
-var height = "5 feet.\n";
-var country = "Kenya.\n";
+var myName = "Name : Emmanuella.\n";
+var height = "Height: 5 feet.\n";
+var country = "Country : Nigeria.\n";
 document.write(myName, height, country);
