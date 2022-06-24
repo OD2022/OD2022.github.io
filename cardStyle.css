@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color:hsl(0, 0%, 95%);
+  }
+  main{
+  width: 100%;
+  height: 100%;
+  }
+  #cardBody{
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    width: 60%;
+    height: 80%;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: stretch;
+  }
+  
+  #cardBody > div{
+    flex-direction: column;
+    width: 30%;
+    padding: 1.5em;
+  }
+  
+  #card1{
+    background-color: hsl(31, 77%, 52%);  
+  }
+  #card2{
+    background-color: hsl(184, 100%, 22%);
+  }
+  #card3{
+    background-color: hsl(179, 100%, 13%);
+  }
+  
+  .learnMoreButton{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 25px;
+    border: none;
+    font-size:15px;
+    margin-top: 4em;
+    padding: 0.5em;
+    width: 8em;
+  }
+  .learnMoreButton:hover{
+    cursor:pointer;
+  }
+  #card1 > Button{
+    color: hsl(31, 77%, 52%);  
+  }
+  #card2 > Button{
+    color: hsl(184, 100%, 22%); 
+  }
+  #card3 > Button{
+    color: hsl(179, 100%, 13%);
+  }
+  p{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family:"Lexend Deca" sans-serif;
+  
+  }
+  h4{
+    color:hsl(0, 0%, 95%);
+    font-family:"Big Shoulders Display" san-serif;
+  }
+  @media (max-width: 400px) {
+    #cardBody{
+      flex-direction: column;
+  

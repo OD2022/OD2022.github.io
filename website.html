@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="websiteStyle.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
+    <title>Assignment6</title>
+</head>
+<body>
+    <main>
+        <div class="leftSide">
+            <h1>Learn to code by</br>watching others</h1>
+            <p>See how experienced developers solve problems in real-time.<br>
+                Watching scripted tutorials is great, but understanding how<br>
+                developers think is invaluable.
+            </p>
+        </div>
+        <div class="rightSide">
+            <div class="graphics">
+                <div id="trialBar"><p><b>Try it free 7 days</b> then $20/mo. thereafter</p></div>
+                <form>
+                    <input type="text" id="fname" name="fname" placeholder="First Name" required 
+                    oninvalid="this.setCustomValidity('First name can not be blank')"oninput="this.setCustomValidity('')"/><br>
+                    
+
+                    <input type="text" id="lname" name="lname" placeholder="Last name" required 
+                    oninvalid="this.setCustomValidity('Last name can not be blank')"oninput="this.setCustomValidity('')"/><br>
+                    
+                    <input type="email" id="email" name="email" placeholder="Email Address" required
+                    oninvalid="this.setCustomValidity('Email Address can not be blank')"oninput="this.setCustomValidity('')"/><br>
+
+                    <input type="password" id="password" name="password" placeholder="Password" required 
+                    oninvalid="this.setCustomValidity('Password can not be blank')"oninput="this.setCustomValidity('')"/><br>
+
+                    <input id="claim" type="submit" value="CLAIM YOUR FREE TRIAL"><br>
+                    <p>By clicking the button, you are agreeing to our <b><span style="color:red">Terms and Services</span></b></p>
+
+                </form>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
